@@ -1,0 +1,21 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- 说明：out/ 等结果目录【保留】进仓库 ----
+# 理由：README 里引用了 out/rv_range.png 等图，让访客不用跑代码就能看到结果。
+# 体积很小（合计约 0.7 MB），不影响 clone。
+# 注意：这些文件是可再生的，重跑脚本会覆盖它们。
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ---- 临时文件 ----
+_*.py
+*.log
